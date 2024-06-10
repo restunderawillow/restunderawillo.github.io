@@ -23,7 +23,16 @@
             margin-bottom: 20px;
         }
         p{
-            margin: 20px 10%;
+            line-height: 150%;
+            margin: 20px 20%;
+            font-size: 20px;
+        }
+        sup{
+            vertical-align: baseline;
+            top: -0.5em;
+            font-size: 0.6em;
+            position: relative;
+            line-height: 0;
         }
         .contain{
             width: 50%;
@@ -62,19 +71,44 @@
         </h2>
     </div>
     <hr>
-    <div align="center">
+    <div align="justify">
         <p>
-            In California, the power grid produced for the state 203 million megawatt hours in 2022.
+            In California, the power grid produced for the state <b>203 million</b> megawatt hours in 2022.
             This was the fourth highest amount of energy produced in the United States.
-            A single megawatt hour represents nearly 2 average California houses monthly electricity usage<sup>[#]</sup>.
+            A single megawatt hour represents nearly <b>2</b> average California houses monthly electricity usage<sup>[#]</sup>.
             The sources for this energy are distributed between renewables, fossil fuels, and nuclear power.
-            The 203 million MWhs is what is available on the power grid over the year, realistically
+            The 203 million MWhs is what is available on the power grid over the year, however,
             the power that was used to make that energy is significantly higher than how much can be used.
         </p>
         <p>
-            Each of the non renewable energy sources are inefficient with the energy used to operate the 
+            Each of the non renewable energy sources are inefficient with the energy used to operate the power plants.
+            The most productive energy source currently is natural gas, also being the most efficient, but for the <b>96 million MWhs</b> that it produced in 2022,
+            the power plants released the equivalent of <b style="color: red;">54 million MWhs</b> as heat and waste.
+            For the <b>114 million MWhs</b> produced through fossil fuels and nuclear energy, there is a total waste energy of <b style="color: red">159 million MWhs</b>.
         </p>
+        <p>
+            In the images below I have marked the lost electricity as it goes through the power grid.
+            The first white image is the total electricity equivalent that is put in to the power plants.
+            As it leaves the power plants all of the <b style="color: blue;"><i>BLUE</i></b> colored area is lost to heat and waste.
+            Already <b style="color: red;">58%</b> of the energy is already gone.
+            In <b style="color: teal;"><i>TEAL</i></b> is the <b style="color: red;">5%</b> of the electricity that is lost in the power lines
+            and power stations between the power plants and the end user.
+            In <b style="color: rgb(0,255,0);"><i>GREEN</i></b> is the amount of the energy that is lost in 
+            the use of battery storage, which loses <b style="color: red;">10%</b> of the electricity that it interacts with. 
+            Currently this is on the lower end, but battery storage is one of the most important parts of the 
+            renewable based power grid, so it will grow with time.
+        </p>
+    </div>
+    <div align="center">
         <img src="images/closeview.jpg" alt="Energy Loss as Heat" class="contain">
+        <div align="justify">
+            <p>
+                This leaves the white area remaining at the end of the graph, accounting for <b>40%</b> of the
+                input energy for non-renewable energies, and representing <b>43%</b> of the total usage of California in 2022.
+                Below is the complete graphic of the fossil fuels and nuclear energy losses with the amount of energy
+                used by all California households in one month colored <b style="color: red;"><i>RED</i></b>.
+            </p>
+        </div>
         <img src="images/CAuse_1.jpeg" alt="Million Homes" class="contain">
         <h3>References:</h3>
         <p align="justify">
